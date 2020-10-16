@@ -36,4 +36,4 @@ class MyStreamListener(tweepy.StreamListener):
 
 myStreamListener = MyStreamListener()
 twitterStream = tweepy.Stream(auth, myStreamListener)
-twitterStream.filter(track=['AMLO'], languages=['es', 'en'])
+twitterStream.filter(track=['Trump'], languages=['es', 'en'])
