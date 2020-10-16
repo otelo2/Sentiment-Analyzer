@@ -1,6 +1,7 @@
 #From https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
 #http://docs.tweepy.org/en/latest/streaming_how_to.html
 import tweepy
+import json
 from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy.streaming import StreamListener
